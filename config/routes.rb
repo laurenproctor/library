@@ -1,4 +1,6 @@
 Library::Application.routes.draw do
+  get "/register", to: "readers#new", as: "register"
+  resources :readers
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

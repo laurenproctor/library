@@ -5,3 +5,55 @@ Connecting to database specified by database.yml
   [1m[35m (0.0ms)[0m  ROLLBACK
   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
   [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 13:38:06 -0400
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 13:39:59 -0400
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 13:43:40 -0400
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 13:45:10 -0400
+Processing by ReadersController#new as HTML
+Completed 500 Internal Server Error in 31ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 13:45:53 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 14:04:42 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 14ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 14:21:24 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 33ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
