@@ -178,3 +178,259 @@ Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  ROLLBACK
   [1m[36m (0.0ms)[0m  [1mBEGIN[0m
   [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 18:57:04 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 59ms (Views: 37.2ms | ActiveRecord: 6.2ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-02 18:57:04 -0400
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 18:58:48 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 60ms (Views: 37.3ms | ActiveRecord: 5.2ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-02 18:58:48 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+Completed 500 Internal Server Error in 6ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 18:59:34 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 63ms (Views: 18.4ms | ActiveRecord: 5.9ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-02 18:59:34 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 19:10:16 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 59ms (Views: 35.9ms | ActiveRecord: 4.6ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-02 19:10:16 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 23:32:05 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 90ms (Views: 45.6ms | ActiveRecord: 21.9ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-02 23:32:05 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-02 23:36:51 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 54ms (Views: 34.1ms | ActiveRecord: 4.4ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-02 23:36:51 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 22:51:29 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 95ms (Views: 15.6ms | ActiveRecord: 45.6ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 22:51:29 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.4ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:03:07 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 54ms (Views: 15.9ms | ActiveRecord: 5.0ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:03:07 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:15:53 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 54ms (Views: 15.8ms | ActiveRecord: 4.3ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:15:53 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+Completed 500 Internal Server Error in 0ms
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:17:51 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 55ms (Views: 15.7ms | ActiveRecord: 4.6ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:17:51 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.6ms)[0m  [1mINSERT INTO "readers" VALUES(DEFAULT) RETURNING "id"[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 7ms (ActiveRecord: 4.8ms)
+Started GET "/" for 127.0.0.1 at 2013-06-13 23:17:51 -0400
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:20:37 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:20:37 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readers" VALUES(DEFAULT) RETURNING "id"[0m
+  [1m[35m (0.2ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+Started GET "/" for 127.0.0.1 at 2013-06-13 23:20:37 -0400
+  [1m[36m (2.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:21:48 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:21:48 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:23:04 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.0ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:23:04 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+Completed 500 Internal Server Error in 1ms
+  [1m[35m (0.3ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:27:18 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:27:18 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "readers" VALUES(DEFAULT) RETURNING "id"[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+Started GET "/" for 127.0.0.1 at 2013-06-13 23:27:18 -0400
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:36:16 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:36:16 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readers" VALUES(DEFAULT) RETURNING "id"[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+Started GET "/" for 127.0.0.1 at 2013-06-13 23:36:16 -0400
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Started GET "/register" for 127.0.0.1 at 2013-06-13 23:37:07 -0400
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+Started POST "/readers" for 127.0.0.1 at 2013-06-13 23:37:07 -0400
+Processing by ReadersController#create as HTML
+  Parameters: {"utf8"=>"✓", "reader"=>{"email"=>"test@test.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Register"}
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "readers" VALUES(DEFAULT) RETURNING "id"[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms)
+Started GET "/" for 127.0.0.1 at 2013-06-13 23:37:07 -0400
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+Processing by ReadersController#new as HTML
+  Rendered readers/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+Processing by ReadersController#new as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Processing by ReadersController#create as HTML
+  Parameters: {"reader"=>{"email"=>"email@email.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://test.host/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Processing by ReadersController#create as HTML
+  Parameters: {"reader"=>{"email"=>"email@email.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Processing by ReadersController#create as HTML
+  Parameters: {"reader"=>{"email"=>"email@email.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+Processing by ReadersController#create as HTML
+  Parameters: {"reader"=>{"email"=>"email@email.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
