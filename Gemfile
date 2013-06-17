@@ -15,6 +15,8 @@ end
 group :test do
 	gem 'cucumber-rails', '~> 1.3.0', require:false
 	gem 'database_cleaner', '~> 0.9.1'
+	gem 'shoulda-matchers'
+	gem 'better_errors'
 end
 
 # Gems used only for assets and not required
@@ -31,6 +33,7 @@ end
 
 gem 'jquery-rails'
 gem 'strong_parameters'
+gem 'email_validator'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

@@ -22,9 +22,9 @@ describe ReadersController do
     let!(:reader) { stub_model(Reader) }
     let(:params) do
       {
-        "email" => "email@email.com",
-        "password" => "pass",
-        "password_confirmation" => "pass"
+        "email" => "test@test.com",
+        "password" => "password",
+        "password_confirmation" => "password"
       }
     end
     before :each do
@@ -38,6 +38,7 @@ describe ReadersController do
       reader.should_receive(:save)
       post :create, reader: params
     end
+
     context "when save message returns true" do
       before :each do
         reader.stub(:save).and_return(true)
@@ -51,5 +52,22 @@ describe ReadersController do
         expect(flash[:notice]).not_to be_nil
       end
     end
+
+    context "when save message returns false" do
+      before :each do
+        reader.stub(:save).and_return(false)
+        post :create, reader: params
+      end
+      it "readers the new template" do
+        expect(response).to render_template :new
+      end
+      it "assigns reader variable to the view" do
+        expect(assigns[:reader]).to eq(reader)
+      end
+      it "assigns error flash message" do
+        expect(flash[:error]).not_to be_nil
+      end
+    end
+    
   end
 end
